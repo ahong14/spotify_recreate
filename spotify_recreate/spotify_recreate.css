@@ -1,0 +1,197 @@
+
+/* left navigation bar */
+.left_bar{
+	z-index : 0;
+	float : left;
+	position : relative;
+	width : 300px;
+	height : 100vh;
+	border : 1px solid black;
+	left: -10px;
+	top: -8px;
+	background-color: black;
+
+
+}
+
+/* spotify image logo */
+.logo{
+	z-index : 1;
+	float : left;
+	position:relative;
+	margin-left : 15px;
+	margin-top : 15px;
+	border-bottom : solid 1px white;
+	width : 200px;
+}
+
+#spotify_image{
+	z-index :1;
+	width : 50px;
+	height : 50px;
+
+}
+
+
+/* items along navigation bar */
+.bar_items{
+	z-index : 1;
+	clear : left;
+	float : left;
+	position:relative;
+	margin-left : 15px;
+	margin-top : 15px;
+	border-bottom : solid 1px white;
+	width : 200px;
+}
+
+/* paragraph elements for the title of items on navigation bar */
+
+.p_element{
+	color : grey;
+	font-family: verdana;
+}
+
+#browse{
+	color : grey;
+	font-family: verdana;
+
+}
+
+
+#your_music{
+	color : grey;
+	font-family: verdana;
+
+}
+
+/* hover over the paragraph items to change color to white */
+.bar_items:hover .p_element{
+
+	color : white;
+
+}
+
+
+#browse:hover {
+	color : white;
+}
+
+
+#your_music:hover {
+	color : white;
+
+}
+
+/*recent music items played */
+.recent{
+	z-index : 1;
+	clear : left;
+	float : left;
+	position:relative;
+	margin-left : 15px;
+	margin-top : 15px;
+	width : 200px;
+
+}
+
+#recent_title{
+	color : grey;
+}
+
+
+/*unordered list of recent music items */
+.recent_list{
+	list-style: none;
+	padding-left: 0;
+
+
+}
+
+
+.list_item{
+	color : grey;
+	z-index : 1;
+	margin-top:10px;
+}
+
+
+/*name of playlist/item */
+.type_name1{
+	font-size: 16px;
+}
+
+.type_name2{
+	font-size: 16px;
+}
+
+.type_name3{
+	font-size: 16px;
+}
+
+.type_name4{
+	font-size: 16px;
+}
+
+
+.type_name1:hover{
+	color : white;
+}
+
+.type_name2:hover{
+	color : white;
+}
+
+.type_name3:hover{
+	color : white;
+}
+
+.type_name4:hover{
+	color : white;
+}
+
+/*type. whether playlist or album */
+.type{
+	font-size:14px;
+
+}
+
+
+
+/*username info */
+
+.user_info{
+	z-index : 1;
+	clear : left;
+	float : left;
+	position:relative;
+	margin-left : 15px;
+	margin-top : 15px;
+	width : 200px;
+
+}
+
+.user_info:hover .p_element{
+	color : white;
+
+}
+
+/*set all hyperlinks to no text decoration */
+
+a{
+	text-decoration: none;
+}
+
+
+
+.main{
+	z-index : 0;
+	float:left;
+	height : 100vh;
+	width : 78vw;
+	margin-left : -10px;
+	margin-top : -10px;
+	border : 1px solid black;
+	background-color: #370606;
+
+}
